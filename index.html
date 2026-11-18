@@ -293,7 +293,7 @@
 
       <div class="card card-pad">
         <div class="card-title">Weekly check-in</div>
-        <p class="card-desc" style="margin-top:6px">Take front and side photos on Day 1, 30, 60 and 90 in the same light. Weigh in every morning after the toilet, before food, and compare weekly averages. Aim to lose <b>0.4–0.7 kg/week</b>. If the average doesn't move for 2 weeks, cut rice at dinner to 20 g and drop the walnuts (about −150 kcal).</p>
+        <p class="card-desc" style="margin-top:6px">Take front and side photos on Day 1, 30, 60 and 90 in the same light. Weigh in every morning after the toilet, before food, and compare weekly averages. Aim to lose <b>0.4–0.7 kg/week</b>. If the average doesn't move for 2 weeks, cut rice at dinner to 20 g and drop the almonds (about −160 kcal).</p>
       </div>
     </div>
   </main>
@@ -325,7 +325,7 @@
         <div class="sep"></div>
         <div class="card-title" style="font-size:14px">Tested safe and used here</div>
         <div class="chips">
-          <span class="badge badge-success">Soya / tofu / soy milk</span><span class="badge badge-success">Peas (pea protein)</span><span class="badge badge-success">Oats</span><span class="badge badge-success">Wheat roti</span><span class="badge badge-success">Rice</span><span class="badge badge-success">Toor, moong, chana</span><span class="badge badge-success">Peanuts</span><span class="badge badge-success">Almonds, walnuts</span><span class="badge badge-success">Sunflower seeds</span><span class="badge badge-success">Banana, apple</span><span class="badge badge-success">Lemon</span>
+          <span class="badge badge-success">Soya / tofu / soy milk</span><span class="badge badge-success">Peas (pea protein)</span><span class="badge badge-success">Besan (chana)</span><span class="badge badge-success">Wheat roti</span><span class="badge badge-success">Rice</span><span class="badge badge-success">Toor, moong, chana</span><span class="badge badge-success">Peanuts</span><span class="badge badge-success">Almonds</span><span class="badge badge-success">Sunflower seeds</span><span class="badge badge-success">Apple</span><span class="badge badge-success">Lemon</span>
         </div>
       </div>
 
@@ -338,7 +338,7 @@
       <div class="card card-pad">
         <div class="card-title">Sunday prep (makes "same food daily" easy)</div>
         <ul class="list" style="margin-top:6px">
-          <li><span class="ic">1</span><div>Pre-portion 7 bags of oats (50 g) + nuts (15 g almonds, 10 g walnuts).</div></li>
+          <li><span class="ic">1</span><div>Pre-portion 7 bags of besan (70 g) and 7 bags of almonds (15 g). Chop onion, capsicum and coriander for 2–3 days of chilla batter.</div></li>
           <li><span class="ic">2</span><div>Pre-portion 7 bags of snack mix: 30 g roasted chana + 20 g peanuts + 10 g sunflower seeds.</div></li>
           <li><span class="ic">3</span><div>Wash and chop vegetables for 3–4 days and store them in boxes.</div></li>
           <li><span class="ic">4</span><div>Buy tofu every 3–4 days so it stays fresh. Weigh soya chunks dry (40 g).</div></li>
@@ -442,15 +442,15 @@ const SCHEDULE = ['upperA','lowerA','rest','upperB','rest','vtaper','rest'];
 
 /* ---------- meal data (kcal, protein, fat, carbs, fiber) ---------- */
 const MEALS = [
-  {time:'8:00 AM', name:'Protein Oats', tag:'Breakfast',
-   how:'Cook the oats in soy milk. Take it off the heat, let it cool for 1 minute, then stir in the protein powder (it clumps in boiling liquid). Top with sliced banana and the nuts.',
+  {time:'8:00 AM', name:'Besan Chilla + Protein Shake', tag:'Breakfast',
+   how:'Whisk besan with water into a smooth batter. Add haldi, ajwain, salt, chopped onion, capsicum, green chilli and coriander, and rest it 5 minutes. Make 3 thin chillas on a non-stick tawa using the 7 g oil in total. Eat with a coriander-lemon green chutney (no curd, no tomato). Blend the protein powder into cold soy milk for the shake and eat the almonds on the side.',
    items:[
-    ['Rolled oats','50 g',190,6.5,3.5,33,5],
-    ['Unsweetened soy milk','250 ml',80,8,4.5,2,1],
+    ['Besan (gram flour)','70 g (3 chillas)',271,15.7,4.7,40.5,7.6],
+    ['Onion, capsicum, chilli, coriander','60 g',20,0.7,0.1,4.5,1],
+    ['Cooking oil','7 g (≈1½ tsp)',63,0,7,0,0],
     ['Pea or soy protein isolate','1 scoop (30 g)',115,24,1.5,1.5,0.5],
-    ['Banana','1 medium',107,1.3,0.4,27,3.1],
-    ['Almonds','15 g (≈12)',87,3.2,7.5,3.2,1.9],
-    ['Walnuts','10 g (≈3 halves)',65,1.5,6.5,1.4,0.7]
+    ['Unsweetened soy milk (for the shake)','250 ml',80,8,4.5,2,1],
+    ['Almonds','15 g (≈12)',87,3.2,7.5,3.2,1.9]
   ]},
   {time:'1:30 PM', name:'Dal, Roti & Soya Sabzi', tag:'Lunch',
    how:'Soak the soya chunks in hot water for 10 minutes and squeeze them dry. Cook with onion, capsicum, ginger-garlic, haldi, jeera and garam masala. Use lemon for sourness instead of tomato. No ghee on the rotis.',
